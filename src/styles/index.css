@@ -1,12 +1,41 @@
+body{
+   background-image: url("https://images.theconversation.com/files/268394/original/file-20190409-2909-1964qt0.jpg?ixlib=rb-1.1.0&rect=115%2C2%2C835%2C417&q=45&auto=format&w=1356&h=668&fit=crop");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   height: 100vh;
+}
+.container{
+   margin-top: -80px;
+   display:flex;
+   flex-direction: row;   
+   justify-content: center; 
+   color: rgb(255, 255, 255);
+   margin: 80px auto;
+   
+}
 
-/* 
+.number{
+   display: grid;
+   place-items: center;
+   font-size: 80px;
+   border-radius: 15px;
+   margin: 20px;
+   margin-top: -20px;
+   width: 150px ;
+   height: 150px;
+   background-color:black;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.number img{
+   width: 100%;
+   height: 100%;
+   object-fit: contain;
+   border-radius: 15px;
+   
+}
 
-*/
+h1{
+   font-size: 70px;
+   color:rgb(0, 0, 0);
+}
